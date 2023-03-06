@@ -19,39 +19,63 @@ export class LoginComponent {
     1003: { username: "agnel", acno: 1003, password: "abc123", balance: 0 }
   }
 
-  //methods
+//   //methods
 
-  login() {
 
-    var acnum = this.acno;
-    console.log(acnum);
-    console.log(typeof acnum);
-    
-    var psw = this.psw;
-    var userDetails = this.userDetails;
-    if (acnum in userDetails) {
-      if (psw == userDetails[acnum]["password"]) {
-        alert('login success')
+login() {
+
+      var acnum = this.acno;
+      var psw = this.psw;
+      var userDetails = this.userDetails;
+      if (acnum in userDetails) {
+        if (psw == userDetails[acnum]["password"]) {
+          alert('login success')
+        }
+        else {
+          alert('incorrect password')
+        }
       }
       else {
-        alert('incorrect password')
+        alert('incorrect account number')
       }
+  
     }
-    else {
-      alert('incorrect account number')
     }
+  
+   
+  
 
-  }
 
-  acnoChange(event: any) {
-   // console.log(event.target.value);
-   this.acno=event.target.value
 
-  }
-  pswChange(event: any) {
-    this.psw = event.target.value
-    console.log(this.psw);
 
-  }
+//  login(acnum:any,psw:any) {
 
-}
+//     var acnum = acnum.value;
+//     var psw = psw.value;
+//     var userDetails = this.userDetails;
+//     if (acnum in userDetails) {
+//       if (psw == userDetails[acnum]["password"]) {
+//         alert('login success')
+//       }
+//       else {
+//         alert('incorrect password')
+//       }
+//     }
+//     else {
+//       alert('incorrect account number')
+//     }
+
+//   }
+
+//   acnoChange(event: any) {
+//    // console.log(event.target.value);
+//    this.acno=event.target.value
+
+//   }
+//   pswChange(event: any) {
+//     this.psw = event.target.value
+//     console.log(this.psw);
+
+ // }
+//
+ //}
