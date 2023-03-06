@@ -45,4 +45,19 @@ method 2: Dollar event binding/ $event binding.: (eventname)="method($event)"
 
  **change: input n akathula value change akumbo use cheyana event an change
 
+ method 3:
+
+ event binding with template rendering variable  #variableName
+
+TWO WAY binding..
+....................
+
+2.1 ngModel  [(ngModel)] ="variable"
+    
+      - FormsModule -module used to apply ngModel
+      namk ngModel cheyan new module avashym varum athan FormsModule.
+      ini FormsModule nammal add cheyan athn nammde root module aya app.modules.ts l arikm avde add cheyanm, 
+      coma 
+
+
 

@@ -25,9 +25,9 @@
                     <form action="">
                         <div class="form-row p-2 m-2 box2">
                             <div class="col-lg-8">
-                                <input #acno type="text" id="u1" name="uname" [placeholder]="data1" class="form-control m-2 p-1">
-                                <input #psw type="password" id="p1" name="password" placeholder="********" class="form-control m-2 p-1">
-                                <button (click)="login(acno,psw)" class="btn1 p-1 m-2">sign-in</button>
+                                <input [(ngModel)]="acno"  type="text" id="u1" name="uname" [placeholder]="data1" class="form-control m-2 p-1">
+                                <input [(ngModel)]="psw" type="password" id="p1" name="password" placeholder="********" class="form-control m-2 p-1">
+                                <button (click)="login()" class="btn1 p-1 m-2">sign-in</button>
                             </div>
                         </div>
                     </form>
