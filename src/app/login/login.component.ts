@@ -21,13 +21,10 @@ export class LoginComponent {
 
   //methods
 
-  login() {
+ login(acnum:any,psw:any) {
 
-    var acnum = this.acno;
-    console.log(acnum);
-    console.log(typeof acnum);
-    
-    var psw = this.psw;
+    var acnum = acnum.value;
+    var psw = psw.value;
     var userDetails = this.userDetails;
     if (acnum in userDetails) {
       if (psw == userDetails[acnum]["password"]) {
@@ -43,15 +40,15 @@ export class LoginComponent {
 
   }
 
-  acnoChange(event: any) {
-   // console.log(event.target.value);
-   this.acno=event.target.value
+//   acnoChange(event: any) {
+//    // console.log(event.target.value);
+//    this.acno=event.target.value
+
+//   }
+//   pswChange(event: any) {
+//     this.psw = event.target.value
+//     console.log(this.psw);
 
   }
-  pswChange(event: any) {
-    this.psw = event.target.value
-    console.log(this.psw);
 
-  }
-
-}
+ //}
