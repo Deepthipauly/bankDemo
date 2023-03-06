@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./assets/b1.jpg");
+    background-size: cover;
+    color: rgb(222, 222, 211);
+}
+
+header {
+    height: 50px;
+    background-color: rgba(231, 202, 202, 0.981);
+    color:rgb(79, 74, 74);
+
+}
+
+footer {
+    height: 70px;
+    background-color: rgba(231, 202, 202, 0.981);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:rgb(79, 74, 74);
+}

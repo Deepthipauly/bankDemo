@@ -1,0 +1,91 @@
+1. browserlist.src   
+
+ browser m nammde angular thammilula configuration paranj koduthitulathan - configuration details
+illegl already configured arikm
+
+2.editconfig:
+
+nammade vscode m angular m thammilila configuration arikm 
+
+3.gitignore:
+ 
+ unwanted files push cheyand store akan.ithil nokyal nammk node modules n file kanam but.node modules imp an..butath nammal push cheyilla push 
+ akya kure load akm.. so ath nammal separate ayt  "npm i"
+
+ 4.angular.json
+
+ angular project run cheyunath angular cli vechitan. angular project m angular cli m thammil ulla configuration details an angular.json n file
+ json type file everything string arikm.
+
+
+5. karma.config:
+ nammdel indavarikilaa
+its a tool for testing used by testers.
+
+6. package-lock & package json:
+
+package json te kude ullathan package lock json.
+
+package.json : third party libraries ne manage cheyan use cheyunathan package.json 
+ithil dependencies n key indakm athil nammal use cheyna third party de details indakm. ethoke file eth version ennoke
+angular project cheythapo thane ithil van upload ayathan ippo ulatah. ini nammal ethl new third party upload akyal automaically ath ithil van
+upload aykolm. namma ethl third party install akmbo ath install ayo illaayo enoke aryan ee file van nokyal mathy.
+
+7.readme.md:
+
+oru text file polula file an md file.namma frame wrk vechenth file indakyalm athil oru readme file indakm.
+oral cheytha project or nammal cheytha project vere alkark or nammalk run cheyendi varum, nammal ath git n clone cheyth edkendy oke varm 
+appol oru projec n avashyaya basic wrk m athnte steps m oke athil\indakm. suppose oru project ne kurich oru idea m nammk illan vekka ithil\nokyal
+project ne kurichula idea nammk kittm.
+
+8.tsconfig.json,tsconfig.app.json,tsconfig.spec.json:
+
+typescript m  nammde project m thammil ulla karyagal koduthitulla 3 files an.
+ts and project thammil ulla connections.
+
+
+9.NODE MODULES: 
+
+imp file an. nammal extra ayt enthlm third party module or third party project install ake and already ulla modules m nte copy an node modules store 
+ay kidakm. "npm i" cheyth ath install akm. 
+
+
+10.src:
+
+favicon: project run cheyumbo ettavm top l filename or link nte or close button nte adth kanana icon an favicon.
+
+test.ts-karma file ullorke ith varolu, testing cheyunathinuvendi ulathan.
+
+polyfill : ath namk avasyulathala ath kude varanathan.
+
+main.ts: nammal js n pakaram use cheyunath ts anu, ath open akayal 2 pere import akyekanath kanam. 
+         1. App module: app nte akath n app module create ayathan 
+
+            nammal angular nte project create akmbo athinte akath oru module m create akm - a module n oru component m create akm.
+
+            module ettavm imp aya alan. athl kure components indakm.
+            module an components oke handle cheyunath.
+
+            app module an main module. 
+
+            oro modules lm tazhe components arikm indava.
+
+ index.html: landing page index an. athayath etovm first open ay varana page an index page.
+
+           ithil but namma project open akipo vanatthonm kana patunila.. 
+           but namal index.html open akmbo "app-root" n paranja orith kanam.. athan selector,
+           components neselect cheyan useaknathan selector. 
+
+           etho oru component ne nammal select akitind.seleector related an first page l nammal kandath. 
+
+
+style.css: ini nammal css file open akanengl kanam global style
+         global style: coomon aytula style ne kodukan.
+         suppose background oke evenam engl ee css file l kodukam.
+         link onm cheyanda auotmatically linked arikm.
+
+
+
+
+
+

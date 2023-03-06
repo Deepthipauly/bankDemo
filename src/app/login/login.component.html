@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    
+
+    <div class="mt-3 ps-3" style="color: blueviolet;">
+        <h3>{{data}}</h3>
+
+    </div>
+
+    <section class="form full width d-flex align-items-center justify-content-center mx-auto">
+        <!-- <div class="container text-center "> -->
+            <div class="row ">
+                <!-- <div class="col-lg-8 box1"> -->
+                    <h1 class="text-center">SIGN -IN</h1>
+                    <form action="">
+                        <div class="form-row p-2 m-2 box2">
+                            <div class="col-lg-8">
+                                <input (change)="acnoChange($event)" type="text" id="u1" name="uname" [placeholder]="data1" class="form-control m-2 p-1">
+                                <input (change)="pswChange($event)" type="password" id="p1" name="password" placeholder="********" class="form-control m-2 p-1">
+                                <button (click)="login()" class="btn1 p-1 m-2">sign-in</button>
+                            </div>
+                        </div>
+                    </form>
+
+                <!-- </div> -->
+
+            </div>
+
+        <!-- </div> -->
+
+    </section>
+
+</body>
+
+</html>

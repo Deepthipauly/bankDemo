@@ -1,0 +1,32 @@
+ANGULAR
+.....................
+
+npm - node package per module   npm -v
+
+installing angular..
+            -npm install -g @angular/cli@latest          
+            check cheyan ng v
+
+
+  project creation 
+            ng new projectname
+
+  running command
+            ng serve --open   or   ng s --o        
+
+     technologies used in angular..
+     ..................................
+
+     front end indakan or content load cheyan - html
+     style - css
+     dynamic akan - typescript
+                        superset of js
+                        in ts use cheyana variablente type namma specify cheythkodkendy varm. strictle typed
+                        but in js js itself can identify the type of variable. dynamic
+
+
+         transpiling  - browser n akath typescript ne run cheyanaryilla.. so browser ts ne js lk convert akit run cheyum. process called transpiling.
+         
+                                 
+
+            

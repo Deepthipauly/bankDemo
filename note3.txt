@@ -1,0 +1,48 @@
+WORKING CYCLE OF ANGULAR COMPONENT:
+........................................
+
+Constructor-->ngOnInit-->other methods
+
+data binding techniques in angular:
+.........................................
+
+one way binding:
+...............
+one direction lk matram data ne share cheyan patolu.
+
+namk ts file and html file inda.
+athl- ts ne - component file nm.
+      html ne  - view file enan vilika.
+
+ 1.1 ts to html binding:
+ -----------------------------
+    here its also called as (component to view data sharing)
+
+          methods:
+          method 1 : string Interpolation: {{}}
+
+          oro method nm oro symbols an use cheyunath. evde nammal use cheyunathan double curly bracket method
+
+          method 2 : property binding.[property_value]="data"
+
+          html l ulla etheglm property de value aytan ithne kondpokendath engl.
+          property: example:type,class,id enoke illathan property en parayunath. evde chilpo ts nte file arikm ethlm property de value html k
+          kondvarendy varum aganathe case l, aa property de value ayt ts file n egot edth kodukanm,such case l property binding.
+
+
+1.2 html to ts (view to component):
+---------------------------------------
+
+method 1: Event binding: (eventname)="method()"
+
+nammal events athayath 'on click' pole ulath connect cheyan use akunathan Event binding.
+in angular 'on click' illa pakaram click an.
+
+method 2: Dollar event binding/ $event binding.: (eventname)="method($event)"
+ 
+ oru event nadakumbol avdannu oru data kude access cheythedkanm.oru event nadanapora kude oru data nm access cheyanm.
+ event nadakumbo avden kituna value savee akan an $ use akunath.
+
+ **change: input n akathula value change akumbo use cheyana event an change
+
+
